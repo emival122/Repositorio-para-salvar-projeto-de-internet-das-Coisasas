@@ -1,30 +1,17 @@
-#Projeto de Poste inteligente
+Projeto de Poste Inteligente
+Este projeto foi desenvolvido no Tinkercad, como parte da disciplina de Internet das Coisas (IoT). O objetivo é criar um protótipo com Arduino que simula um poste inteligente, permitindo que o Arduino leia a intensidade da luz e controle a intensidade do LED com base nas leituras do sensor.
 
-Este projeto foi desenvolvido dentro do Tinkercad, na disciplina de Internet
-das Coisas (IOT), para a criação de um protótipo com arduino que simula 
-um Poste inteligente que permite que o Arduino leia a intensidade da luz e 
-controle a intensidade do LED com base na leitura do sensor.
+Componentes Utilizados
 
-#componentes usados
+Arduino Uno: Placa de microcontrolador utilizada para programar e controlar os componentes.
+LED: Diodo emissor de luz que será controlado com base na leitura do sensor de luminosidade.
+Resistor para o LED: Um resistor (geralmente de 220Ω ou 330Ω) é utilizado em série com o LED para limitar a corrente e evitar que o LED queime.
+Sensor de Luminosidade (por exemplo, LDR - Resistor Dependente de Luz): Componente que varia sua resistência de acordo com a quantidade de luz que incide sobre ele.
+Resistor para o LDR: Um resistor (geralmente entre 10kΩ e 100kΩ) é utilizado em um divisor de tensão com o LDR, permitindo a leitura do nível de luminosidade no pino analógico.
+Fios de Conexão: Fios jumpers para realizar as conexões entre os componentes e a placa Arduino.
 
-Arduino Uno.
-
-LED: Um diodo emissor de luz que será controlado pela leitura do sensor de luminosidade.
-
-Resistor para o LED: Geralmente um resistor de 220Ω ou 330Ω é utilizado em série com o LED para limitar a corrente e evitar que o LED queime.
-
-Sensor de Luminosidade (por exemplo, LDR - Resistor Dependente de Luz): Um componente que varia sua resistência com a quantidade de luz que incide sobre ele.
-
-Resistor para o LDR: Um resistor (geralmente entre 10kΩ e 100kΩ) é usado em um divisor de tensão com o LDR para permitir a leitura do nível de luminosidade no pino analógico.
-
-Fios de Conexão: Fios jumpers para fazer as ligações entre os componentes e a placa Arduino.
-
-#Montagem do circuito
-
-
+Montagem do Circuito
 ![Imagem do Circuito](Posteinteligente.png)
-
-
 
 Explicação do Código
 
