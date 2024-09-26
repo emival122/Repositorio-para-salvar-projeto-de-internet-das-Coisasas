@@ -1,19 +1,23 @@
-Projeto de Poste Inteligente
-Este projeto foi desenvolvido no Tinkercad, como parte da disciplina de Internet das Coisas (IoT). O objetivo é criar um protótipo com Arduino que simula um poste inteligente, permitindo que o Arduino leia a intensidade da luz e controle a intensidade do LED com base nas leituras do sensor.
 
-Componentes Utilizados
+##Projeto de Poste Inteligente
 
-Arduino Uno: Placa de microcontrolador utilizada para programar e controlar os componentes.
-LED: Diodo emissor de luz que será controlado com base na leitura do sensor de luminosidade.
-Resistor para o LED: Um resistor (geralmente de 220Ω ou 330Ω) é utilizado em série com o LED para limitar a corrente e evitar que o LED queime.
-Sensor de Luminosidade (por exemplo, LDR - Resistor Dependente de Luz): Componente que varia sua resistência de acordo com a quantidade de luz que incide sobre ele.
-Resistor para o LDR: Um resistor (geralmente entre 10kΩ e 100kΩ) é utilizado em um divisor de tensão com o LDR, permitindo a leitura do nível de luminosidade no pino analógico.
-Fios de Conexão: Fios jumpers para realizar as conexões entre os componentes e a placa Arduino.
+Este projeto foi desenvolvido no Tinkercad, na disciplina de Internet das Coisas (IoT), para a criação de
+um protótipo com Arduino que simula um poste inteligente. Este dispositivo ajusta a intensidade do LED de
+acordo com a iluminação ambiente, ligando-o ou desligando-o conforme necessário.
 
+#Componentes Usados
+1 Arduino Uno
+1 Placa de Ensaio
+1 Sensor de Luminosidade (LDR)
+1 LED
+1 Resistor de 220Ω
+1 Resistor de 10kΩ
+14 Jumpers Macho-Macho
+3 Jumpers Macho-Fêmea
 Montagem do Circuito
-![Imagem do Circuito](Posteinteligente.png)
+![Imagem do Circuito](Poste inteligente.png)
 
-Explicação do Código
+#Explicação do Código
 
 
 
