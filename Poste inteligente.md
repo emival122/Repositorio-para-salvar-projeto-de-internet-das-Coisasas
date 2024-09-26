@@ -22,7 +22,7 @@ Fios de Conexão: Fios jumpers para fazer as ligações entre os componentes e a
 #Montagem do circuito
 
 
-![Imagem do Circuito](Poste inteligente.png)
+![Imagem do Circuito](Posteinteligente.png)
 
 
 
