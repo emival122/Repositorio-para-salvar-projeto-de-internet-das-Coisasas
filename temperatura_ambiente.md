@@ -17,7 +17,7 @@ informações em tempo real. O sistema é útil para aplicações onde o monitor
 4 Jumpers Macho-Macho 
 
 #Montagem do Circuito
-
+![Imagem do Circuito](Temperaturaambiente.png)
 
 # Explicação do Código
 cpp
