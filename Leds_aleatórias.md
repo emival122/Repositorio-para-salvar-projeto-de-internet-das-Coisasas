@@ -17,6 +17,7 @@ e a mistura delas para criar novas tonalidades.
 Jumpers Macho-Macho
 
 # Montagem do Circuito
+![Imagem do Circuito](.png)
 
 # Explicação do Código
 
@@ -29,7 +30,7 @@ void setup() {
     pinMode(G, OUTPUT);           Configura o pino verde como saída
     pinMode(B, OUTPUT);           Configura o pino azul como saída
     
-    pinMode(LED_BUILTIN, OUTPUT);  Configura o LED embutido como saída
+pinMode(LED_BUILTIN, OUTPUT);  Configura o LED embutido como saída
 }
 
 void loop() {
@@ -38,11 +39,11 @@ void loop() {
     int v2 = random(0, 256);      Valor aleatório para verde
     int v3 = random(0, 256);      Valor aleatório para azul
     
-    Controle das portas com PWM para variar a intensidade
-    analogWrite(R, v1);            Aplica valor ao LED vermelho
-    analogWrite(G, v2);            Aplica valor ao LED verde
-    analogWrite(B, v3);            Aplica valor ao LED azul
-    delay(50);                     Espera 50 milissegundos
+ Controle das portas com PWM para variar a intensidade
+ analogWrite(R, v1);            Aplica valor ao LED vermelho
+analogWrite(G, v2);            Aplica valor ao LED verde
+ analogWrite(B, v3);            Aplica valor ao LED azul
+ delay(50);                     Espera 50 milissegundos
 }
 Definição das Variáveis
 R: Pino conectado ao LED vermelho.
