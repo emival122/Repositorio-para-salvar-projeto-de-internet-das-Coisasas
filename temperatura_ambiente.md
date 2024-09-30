@@ -22,16 +22,21 @@ informações em tempo real. O sistema é útil para aplicações onde o monitor
 ![Imagem do Circuito](Temperaturadeambiente.png)
 
 # Explicação do Código
-cpp
-Copiar código
+
+
  BIBLIOTECA LCD COM MÓDULO I2C
+ 
 #include <LiquidCrystal_I2C.h>
 
  INICIALIZANDO LCD
+ 
 LiquidCrystal_I2C telalcd(0x20, 16, 2);
 
+
  VARIÁVEL DO SENSOR DE TEMPERATURA
+ 
 int sensorTMP = A0;  Pino do sensor de temperatura
+
  capturar temperatura
 int valorLido;
 
