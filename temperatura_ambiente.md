@@ -19,7 +19,7 @@ informações em tempo real. O sistema é útil para aplicações onde o monitor
 #Montagem do Circuito
 
 
-![Imagem do Circuito](Temperaturadeambiente.png)
+![Imagem do Circuito](temperaturadeambiente.png.png)
 
 # Explicação do Código
 
