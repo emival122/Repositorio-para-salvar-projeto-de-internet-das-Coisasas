@@ -16,6 +16,8 @@ Jumpers Macho-Macho
 
 # uMontagem do Circuito
 
+![Imagem do Circuito](buzze_notas_ musicais.png)
+
 # Explicação do Código
 
 int buzzer = 3;                Pino conectado ao buzzer
@@ -39,9 +41,9 @@ void loop() {
     tone(buzzer, fa, 500);       Tocar a nota fa por 500 milissegundos
     delay(600);                  Espera 600 milissegundos
     
-     Função de desligar, noTone()
-    noTone(buzzer);              Desligar o som do buzzer
-    delay(2000);                 Esperar 2 segundos antes de repetir
+ Função de desligar, noTone()
+ noTone(buzzer);              Desligar o som do buzzer
+ delay(2000);                 Esperar 2 segundos antes de repetir
 }
 Definição das Variáveis
 buzzer: Pino conectado ao buzzer para emitir sons.
