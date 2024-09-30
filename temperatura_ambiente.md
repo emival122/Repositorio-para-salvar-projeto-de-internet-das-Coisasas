@@ -1,5 +1,6 @@
 # Temperatura de ambiente
-Introdução
+
+3Introdução
 Este projeto foi desenvolvido no Tinkercad, como parte da disciplina de Internet das Coisas (IoT), com
 o objetivo de criar um protótipo que simula um sistema de monitoramento de temperatura. O sistema utiliza
 um sensor de temperatura analógico para capturar e exibir a temperatura ambiente em um display LCD.
@@ -13,8 +14,10 @@ informações em tempo real. O sistema é útil para aplicações onde o monitor
 1 Placa de Ensaio
 1 Sensor de Temperatura (analógico)
 1 Módulo LCD I2C (16x2)
-4 Jumpers Macho-Macho
-Montagem do Circuito
+4 Jumpers Macho-Macho 
+
+#Montagem do Circuito
+
 
 # Explicação do Código
 cpp
