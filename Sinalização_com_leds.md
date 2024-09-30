@@ -40,7 +40,7 @@ void setup() {
 }
 
 void loop() {
-     Primeiro momento: 1 Verde, 1 Vermelho, 1 Azul
+    Primeiro momento: 1 Verde, 1 Vermelho, 1 Azul
     digitalWrite(ledVerde1, HIGH);     Liga LED Verde 1
     digitalWrite(ledVermelho1, HIGH);   Liga LED Vermelho 1
     digitalWrite(ledAzul1, HIGH);       Liga LED Azul 1
