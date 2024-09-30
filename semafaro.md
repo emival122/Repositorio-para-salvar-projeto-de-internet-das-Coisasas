@@ -25,7 +25,7 @@ a presença de pedestres.
 # Explicação do Código
 
 
-// Definindo os pinos para os LEDs dos semáforos de carros
+ Definindo os pinos para os LEDs dos semáforos de carros
 const int carRed1 = 4;     LED vermelho para o carro 1
 const int carYellow1 = 3;  LED amarelo para o carro 1
 const int carGreen1 = 2;   LED verde para o carro 1
@@ -33,13 +33,13 @@ const int carRed2 = 7;     LED vermelho para o carro 2
 const int carYellow2 = 6;  LED amarelo para o carro 2
 const int carGreen2 = 5;   LED verde para o carro 2
 
-// Definindo os pinos para os LEDs dos semáforos de pedestres
-const int pedestrianRed1 = 9;    LED vermelho para pedestre 1
-const int pedestrianGreen1 = 8;  LED verde para pedestre 1
-const int pedestrianRed2 = 11;   LED vermelho para pedestre 2
-const int pedestrianGreen2 = 10;  LED verde para pedestre 2
+ Definindo os pinos para os LEDs dos semáforos de pedestres
+const int pedestrianRed1 = 9;      LED vermelho para pedestre 1
+const int pedestrianGreen1 = 8;    LED verde para pedestre 1
+const int pedestrianRed2 = 11;     LED vermelho para pedestre 2
+const int pedestrianGreen2 = 10;    LED verde para pedestre 2
 
-/ Definindo os pinos para o sensor de distância
+ Definindo os pinos para o sensor de distância
 const int trigPin = 12;  Pino de disparo do sensor
 const int echoPin = 13;  Pino de eco do sensor
 
