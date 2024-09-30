@@ -1,10 +1,27 @@
 # Projeto de Semáforo com Sensor de Distância
 
+# Introdução
 
-Este projeto foi desenvolvido no Tinkercad, na disciplina de Internet das Coisas (IoT), para a
-criação de um protótipo que simula um sistema de semáforo inteligente. O sistema controla os 
-sinais de trânsito para veículos e pedestres, utilizando um sensor de distância para detectar
+Este projeto foi desenvolvido no Tinkercad, como parte da disciplina de Internet
+das Coisas (IoT), com o objetivo de criar um protótipo que simula um sistema de 
+semáforo inteligente. O sistema é projetado para controlar os sinais de trânsito
+destinados a veículos e pedestres, utilizando um sensor de distância para detectar
 a presença de pedestres.
+
+Foram implementados dois semáforos para veículos, equipados com LEDs nas cores
+verde, amarelo e vermelho, considerando que cada pista possui um sentido de tráfego
+distinto. Além disso, foram criados dois semáforos para pedestres, utilizando LEDs 
+nas cores vermelha e verde, um para cada faixa.
+
+No funcionamento do sistema, os semáforos dos veículos permanecem na cor verde até que
+um pedestre se aproxime da faixa de travessia. Quando um pedestre se aproxima a uma 
+distância de 50 cm, o sensor de distância é ativado, resultando na mudança imediata 
+dos sinais dos veículos para vermelho. Durante um período de 15 segundos, os semáforos
+para pedestres exibem a luz verde, permitindo a travessia segura.
+
+Após o término desse intervalo, quando o sensor não detecta mais a presença de pedestres,
+os sinais para pedestres se tornam vermelhos, e os semáforos dos veículos são novamente 
+liberados para o tráfego.
 
 # Componentes Usados
 
