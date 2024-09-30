@@ -1,6 +1,17 @@
  # Projeto de Poste inteligente
 
-Este projeto foi desenvolvido dentro do Tinkercad, na disciplina de Internet das Coisas (IOT), para a criação de um protótipo com arduino que simula um Poste inteligente que permite que o Arduino leia a intensidade da luz e controle a intensidade do LED com base na leitura do sensor.
+ # Introdução
+
+Este projeto foi desenvolvido no Tinkercad, como parte da disciplina de Internet das Coisas
+(IoT), com o objetivo de criar um protótipo que simule um sistema de semáforo inteligente.
+O sistema é projetado para controlar os sinais de trânsito destinados a veículos e pedestres,
+utilizando um sensor de distância para detectar a presença de pedestres.
+O funcionamento do sistema inicia com a configuração dos LEDs dos semáforos de veículos nas cores
+verde, amarelo e vermelho, considerando que cada pista possui um sentido de tráfego distinto. Quando
+um pedestre se aproxima a menos de 50 cm, o sensor é ativado, mudando os sinais dos veículos para 
+vermelho e os dos pedestres para verde. Os semáforos dos pedestres permanecem verdes por 15 segundos
+para garantir a travessia segura. Após esse período, se não houver mais pedestres detectados, os sinais
+dos pedestres voltam a ficar vermelhos, permitindo que os veículos retomem o tráfego normalmente.
 
 # componentes usados
 
