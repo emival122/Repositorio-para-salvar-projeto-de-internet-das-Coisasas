@@ -14,12 +14,19 @@ Os LEDs utilizados são nas cores verde, vermelho e azul, proporcionando um efei
 #Montagem do Circuito
 
 #Explicação do Código
-// Definindo os pinos dos LEDs
+
+Definindo os pinos dos LEDs
+
 const int ledVerde1 = 2;    LED Verde 1
+
 const int ledVerde2 = 3;    LED Verde 2
+
 const int ledVermelho1 = 4; LED Vermelho 1
+
 const int ledVermelho2 = 5; LED Vermelho 2
+
 const int ledAzul1 = 6;     LED Azul 1
+
 const int ledAzul2 = 7;     LED Azul 2
 
 void setup() {
@@ -43,18 +50,17 @@ void loop() {
     digitalWrite(ledAzul1, LOW);        Desliga LED Azul 1
     delay(500);                         Pausa
 
-     Segundo momento: 2 Verdes e 2 Azuis
-    digitalWrite(ledVerde1, HIGH);     Liga LED Verde 1
-    digitalWrite(ledVerde2, HIGH);     Liga LED Verde 2
+   Segundo momento: 2 Verdes e 2 Azuis
+   digitalWrite(ledVerde1, HIGH);     Liga LED Verde 1
+   digitalWrite(ledVerde2, HIGH);     Liga LED Verde 2
     digitalWrite(ledAzul1, HIGH);       Liga LED Azul 1
-    digitalWrite(ledAzul2, HIGH);       Liga LED Azul 2
+   digitalWrite(ledAzul2, HIGH);       Liga LED Azul 2
     delay(2000);                        Mantém aceso por 2 segundos
-    digitalWrite(ledVerde1, LOW);      Desliga LED Verde 1
+   digitalWrite(ledVerde1, LOW);      Desliga LED Verde 1
     digitalWrite(ledVerde2, LOW);      Desliga LED Verde 2
-    digitalWrite(ledAzul1, LOW);        Desliga LED Azul 1
+   digitalWrite(ledAzul1, LOW);        Desliga LED Azul 1
     digitalWrite(ledAzul2, LOW);        Desliga LED Azul 2
     delay(500);                         Pausa
-
      Terceiro momento: 1 Verde, 2 Vermelhos e 1 Azul
     digitalWrite(ledVerde1, HIGH);      Liga LED Verde 1
     digitalWrite(ledVermelho1, HIGH);   Liga LED Vermelho 1
