@@ -14,9 +14,9 @@ funções para gerar os sons no buzzer.
 
 Jumpers Macho-Macho
 
-# uMontagem do Circuito
+# Montagem do Circuito
 
-![Imagem do Circuito](buzze_notas_ musicais.png)
+![Imagem do Circuito](buzze_notasmusicais.png)
 
 # Explicação do Código
 
