@@ -1,8 +1,8 @@
- #Projeto de Poste inteligente
+ # Projeto de Poste inteligente
 
 Este projeto foi desenvolvido dentro do Tinkercad, na disciplina de Internet das Coisas (IOT), para a criação de um protótipo com arduino que simula um Poste inteligente que permite que o Arduino leia a intensidade da luz e controle a intensidade do LED com base na leitura do sensor.
 
-#componentes usados
+# componentes usados
 
 Arduino Uno.
 
