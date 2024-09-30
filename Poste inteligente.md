@@ -16,11 +16,11 @@ Resistor para o LDR: Um resistor (geralmente entre 10kΩ e 100kΩ) é usado em u
 
 Fios de Conexão: Fios jumpers para fazer as ligações entre os componentes e a placa Arduino.
 
-#Montagem do circuito
+# Montagem do circuito
 
 ![Imagem do Circuito](Posteinteligente.png)
 
-Explicação do Código
+# Explicação do Código
 
 variáveis ​​int led =3; int sensorluminosidade= A0; variável para capturar a luminosidade int luz =0;
 
