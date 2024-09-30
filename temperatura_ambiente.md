@@ -1,4 +1,4 @@
-## Projeto de Monitoramento de Temperatura com Sensor Analógico
+# Temperatura de ambiente
 Introdução
 Este projeto foi desenvolvido no Tinkercad, como parte da disciplina de Internet das Coisas (IoT), com
 o objetivo de criar um protótipo que simula um sistema de monitoramento de temperatura. O sistema utiliza
@@ -7,8 +7,9 @@ O circuito é composto por um sensor de temperatura que lê os dados e uma tela 
 informações em tempo real. O sistema é útil para aplicações onde o monitoramento contínuo da temperatura
 é necessário.
 
-# Componentes Usados
-1 Arduino Uno
+# Componentes Usados 
+
+1 Arduino Uno 
 1 Placa de Ensaio
 1 Sensor de Temperatura (analógico)
 1 Módulo LCD I2C (16x2)
