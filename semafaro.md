@@ -25,24 +25,26 @@ a presença de pedestres.
 # Explicação do Código
 
 
+// Definindo os pinos para os LEDs dos semáforos de carros
+const int carRed1 = 4;     LED vermelho para o carro 1
+const int carYellow1 = 3;  LED amarelo para o carro 1
+const int carGreen1 = 2;   LED verde para o carro 1
+const int carRed2 = 7;     LED vermelho para o carro 2
+const int carYellow2 = 6;  LED amarelo para o carro 2
+const int carGreen2 = 5;   LED verde para o carro 2
 
-const int carRed1 = 4;
-const int carYellow1 = 3;
-const int carGreen1 = 2;
-const int carRed2 = 7;
-const int carYellow2 = 6;
-const int carGreen2 = 5;
+// Definindo os pinos para os LEDs dos semáforos de pedestres
+const int pedestrianRed1 = 9;    LED vermelho para pedestre 1
+const int pedestrianGreen1 = 8;  LED verde para pedestre 1
+const int pedestrianRed2 = 11;   LED vermelho para pedestre 2
+const int pedestrianGreen2 = 10;  LED verde para pedestre 2
 
-const int pedestrianRed1 = 9;
-const int pedestrianGreen1 = 8;
-const int pedestrianRed2 = 11;
-const int pedestrianGreen2 = 10;
-
-const int trigPin = 12;
-const int echoPin = 13;
+/ Definindo os pinos para o sensor de distância
+const int trigPin = 12;  Pino de disparo do sensor
+const int echoPin = 13;  Pino de eco do sensor
 
 void setup() {
-   LEDs dos carros
+    Configurando os pinos dos LEDs dos carros como saída
   pinMode(carRed1, OUTPUT);
   pinMode(carYellow1, OUTPUT);
   pinMode(carGreen1, OUTPUT);
@@ -50,71 +52,79 @@ void setup() {
   pinMode(carYellow2, OUTPUT);
   pinMode(carGreen2, OUTPUT);
 
-   LEDs dos pedestres
+ Configurando os pinos dos LEDs dos pedestres como saída
   pinMode(pedestrianRed1, OUTPUT);
   pinMode(pedestrianGreen1, OUTPUT);
   pinMode(pedestrianRed2, OUTPUT);
   pinMode(pedestrianGreen2, OUTPUT);
 
-   Sensor de distância
+   Configurando os pinos do sensor de distância
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   
-   Inicia os semáforos
+ Inicia os semáforos de carros
   startCarSignals();
 }
 
 void loop() {
   long duration, distance;
   
-  Ativa o sensor de distância
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
+   Ativando o sensor de distância
+  digitalWrite(trigPin, LOW);  Baixa o pino do trigger
+  delayMicroseconds(2);         Espera 2 microssegundos
+  digitalWrite(trigPin, HIGH);  Ativa o pino do trigger
+  delayMicroseconds(10);        Espera 10 microssegundos
+  digitalWrite(trigPin, LOW);   Desativa o trigger
   
+   Lê o tempo que o sinal leva para retornar
   duration = pulseIn(echoPin, HIGH);
-  distance = (duration * 0.034) / 2; cm
+  
+   Calcula a distância em centímetros
+  distance = (duration * 0.034) / 2;  (duração em microssegundos * 0.034 cm/µs) / 2
 
-  if (distance < 50) {
-    Pedestre detectado
-    stopCarSignals();
-    startPedestrianSignals();
-    delay(15000); Espera 15 segundos
-    stopPedestrianSignals();
-    startCarSignals();
+   Verifica se um pedestre está próximo
+  if (distance < 50) {  Se a distância for menor que 50 cm
+     Pedestre detectado
+    stopCarSignals();          Para os sinais dos carros
+    startPedestrianSignals();  Ativa os sinais dos pedestres
+    delay(15000);              Espera 15 segundos
+    stopPedestrianSignals();   Para os sinais dos pedestres
+    startCarSignals();         Retorna os sinais dos carros
   }
 }
 
+ Função para iniciar os sinais dos carros
 void startCarSignals() {
-  digitalWrite(carRed1, LOW);
-  digitalWrite(carYellow1, LOW);
-  digitalWrite(carGreen1, HIGH);
-  digitalWrite(carRed2, LOW);
-  digitalWrite(carYellow2, LOW);
-  digitalWrite(carGreen2, HIGH);
+  digitalWrite(carRed1, LOW);    Verde para carro 1
+  digitalWrite(carYellow1, LOW);  Amarelo para carro 1 desligado
+  digitalWrite(carGreen1, HIGH);  Verde para carro 1 ligado
+  digitalWrite(carRed2, LOW);     Verde para carro 2
+  digitalWrite(carYellow2, LOW);  Amarelo para carro 2 desligado
+  digitalWrite(carGreen2, HIGH);  Verde para carro 2 ligado
 }
 
+ Função para parar os sinais dos carros
 void stopCarSignals() {
-  digitalWrite(carRed1, HIGH);
-  digitalWrite(carYellow1, LOW);
-  digitalWrite(carGreen1, LOW);
-  digitalWrite(carRed2, HIGH);
-  digitalWrite(carYellow2, LOW);
-  digitalWrite(carGreen2, LOW);
+  digitalWrite(carRed1, HIGH);    Vermelho para carro 1
+  digitalWrite(carYellow1, LOW);   Amarelo para carro 1 desligado
+  digitalWrite(carGreen1, LOW);    Verde para carro 1 desligado
+  digitalWrite(carRed2, HIGH);     Vermelho para carro 2
+  digitalWrite(carYellow2, LOW);    Amarelo para carro 2 desligado
+  digitalWrite(carGreen2, LOW);     Verde para carro 2 desligado
 }
 
+ Função para iniciar os sinais dos pedestres
 void startPedestrianSignals() {
-  digitalWrite(pedestrianRed1, LOW);
-  digitalWrite(pedestrianGreen1, HIGH);
-  digitalWrite(pedestrianRed2, LOW);
-  digitalWrite(pedestrianGreen2, HIGH);
+  digitalWrite(pedestrianRed1, LOW);   Verde para pedestre 1
+  digitalWrite(pedestrianGreen1, HIGH);  Verde para pedestre 1 ligado
+  digitalWrite(pedestrianRed2, LOW);     Verde para pedestre 2
+  digitalWrite(pedestrianGreen2, HIGH);  Verde para pedestre 2 ligado
 }
 
+ Função para parar os sinais dos pedestres
 void stopPedestrianSignals() {
-  digitalWrite(pedestrianRed1, HIGH);
-  digitalWrite(pedestrianGreen1, LOW);
-  digitalWrite(pedestrianRed2, HIGH);
-  digitalWrite(pedestrianGreen2, LOW);
+  digitalWrite(pedestrianRed1, HIGH);   Vermelho para pedestre 1
+  digitalWrite(pedestrianGreen1, LOW);  Verde para pedestre 1 desligado
+  digitalWrite(pedestrianRed2, HIGH);    Vermelho para pedestre 2
+  digitalWrite(pedestrianGreen2, LOW);   Verde para pedestre 2 desligado
 }
