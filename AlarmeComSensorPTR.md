@@ -6,12 +6,19 @@ há movimento, o LED vermelho é aceso. Esse sistema é útil para alertar sobre
 pessoas em um ambiente.
 
 # Componentes Usados
+
 1 Arduino Uno
+
 1 Sensor PIR
+
 1 Buzzer Piezoelétrico
+
 1 LED Vermelho
+
 1 Resistor de 220 ohms (para o LED)
+
 Jumpers Macho-Macho
+
 # Montagem do Circuito
 
 ![Imagem do Circuito](AlarmeComSensorPTR (1).png)
