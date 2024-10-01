@@ -14,6 +14,7 @@ pessoas em um ambiente.
 Jumpers Macho-Macho
 # Montagem do Circuito
 
+![Imagem do Circuito](.png)
 # Explicação do Código
 cpp
 Copiar código
