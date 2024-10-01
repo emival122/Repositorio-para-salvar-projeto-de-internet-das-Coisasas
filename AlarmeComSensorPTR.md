@@ -14,7 +14,7 @@ pessoas em um ambiente.
 Jumpers Macho-Macho
 # Montagem do Circuito
 
-![Imagem do Circuito](.png)
+![Imagem do Circuito](AlarmeComSensorPTR (1).png)
 # Explicação do Código
 cpp
 Copiar código
@@ -32,7 +32,7 @@ void setup() {
 void loop() {
     int detectarPresenca = digitalRead(sensorPIR);  Lê o estado do sensor PIR
     
-    if (detectarPresenca == HIGH) {  Verifica se há presença
+  if (detectarPresenca == HIGH) {  Verifica se há presença
         tone(buzzer, 264);            Toca um som no buzzer
         digitalWrite(ledVermelho, LOW);  Desliga o LED vermelho
     } else {
