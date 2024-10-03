@@ -30,8 +30,6 @@ Jumpers Macho-Macho e Macho-Fêmea
 
 ![Imagem do Circuito](robo_segurança.png)
 
-Diagrama do Circuito
-
 # Explicação do Código
 #include <Servo.h>
 
