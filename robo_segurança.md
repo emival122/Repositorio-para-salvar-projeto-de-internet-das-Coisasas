@@ -23,7 +23,7 @@ Sensor Ultrassônico (HC-SR04)
 Jumpers Macho-Macho e Macho-Fêmea
 
 Montagem do Circuito
-![Imagem do Circuito](Posteinteligente.png)
+![Imagem do Circuito](robo_segurança.png)
 
 Diagrama do Circuito
 
