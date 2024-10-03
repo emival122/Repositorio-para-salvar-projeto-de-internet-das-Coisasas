@@ -9,7 +9,11 @@ sensor ultrassônico. Quando um objeto é detectado a uma distância menor
 que um limite predefinido, o sistema acende um LED e aciona um servo motor
 para realizar um desvio. O sistema é útil em aplicações de robótica e 
 automação, onde é necessário evitar colisões. O sensor de distância é
-capaz de medir distâncias em tempo real e acionar as respostas adequadas.
+capaz de medir distâncias em tempo real e acionar as respostas adequadas,
+o objetivo é criar uma cabeça de robô que ao detectar algum objeto,pessoa
+e parede a sua frente emita um sinal ao corpo dele e faça-o girar para 
+o outro lado. Ao encontrar um obstáculo ele deve acender um led vermelho, e 
+só depois deve girar o corpo para o outro lado.
 
 # Componentes Usados
 Arduino Uno
@@ -22,7 +26,8 @@ Sensor Ultrassônico (HC-SR04)
 
 Jumpers Macho-Macho e Macho-Fêmea
 
-Montagem do Circuito
+# Montagem do Circuito
+
 ![Imagem do Circuito](robo_segurança.png)
 
 Diagrama do Circuito
