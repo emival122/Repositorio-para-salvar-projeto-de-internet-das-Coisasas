@@ -20,6 +20,7 @@ Os dados são enviados para o monitor serial, permitindo a visualização em tem
 3 Jumpers Macho-Macho
 
 # Montagem do Circuito
+![Imagem do Circuito](AlarmeComSensorPTR.png)
 
 # Explicação do Código
 
