@@ -20,7 +20,7 @@ Os dados são enviados para o monitor serial, permitindo a visualização em tem
 3 Jumpers Macho-Macho
 
 # Montagem do Circuito
-![Imagem do Circuito](AlarmeComSensorPTR.png)
+![Imagem do Circuito](sensor_umidade.png)
 
 # Explicação do Código
 
