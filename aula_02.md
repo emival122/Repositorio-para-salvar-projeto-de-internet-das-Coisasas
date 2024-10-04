@@ -21,7 +21,8 @@ como controlar múltiplas saídas digitais em Arduino.
 Jumpers Macho-Macho
 
 # Montagem do Circuito
-![Imagem do Circuito](AlarmeComSensorPTR.png)
+
+![Imagem do Circuito](aula_02.png)
 
 # Explicação do Código
 
