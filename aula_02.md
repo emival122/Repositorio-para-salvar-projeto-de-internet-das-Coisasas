@@ -1,4 +1,4 @@
-# Aula_01 emáforo Simples
+# Aula_01 semáforo Simples
 
 # Introdução
 
