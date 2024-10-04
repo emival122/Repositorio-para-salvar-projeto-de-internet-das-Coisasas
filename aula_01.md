@@ -16,6 +16,7 @@ Arduino e pode ser utilizado como base para projetos mais complexos.
 Jumpers Macho-Macho
 
 # Montagem do Circuito
+![Imagem do Circuito](AlarmeComSensorPTR.png)
 
 # Explicação do Código
 
