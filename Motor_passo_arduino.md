@@ -18,7 +18,7 @@ controle básico de movimento.
 Jumpers Macho-Macho
 
 # Montagem do Circuito
-![Imagem do Circuito](motor_passo_arduino.png)
+![Imagem do Circuito](Motor_passo_arduino.png)
 
 # Explicação do Código
 
