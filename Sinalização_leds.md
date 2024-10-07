@@ -12,7 +12,7 @@ Os LEDs utilizados são nas cores verde, vermelho e azul, proporcionando um efei
 6 LEDs (2 Verdes, 2 Vermelhos, 2 Azuis)
 6 Jumpers Macho-Macho
 # Montagem do Circuito
-![Imagem do Circuito](sinalizacao_leds.png)
+![Imagem do Circuito](Sinalizacao_leds.png)
 # Explicação do Código
 
 Definindo os pinos dos LEDs
