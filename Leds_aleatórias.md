@@ -17,7 +17,7 @@ e a mistura delas para criar novas tonalidades.
 Jumpers Macho-Macho
 
 # Montagem do Circuito
-![Imagem do Circuito](leds_aleatorios.png)
+![Imagem do Circuito](Leds_aleatorios.png)
 
 # Explicação do Código
 
