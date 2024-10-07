@@ -16,7 +16,7 @@ Arduino e pode ser utilizado como base para projetos mais complexos.
 Jumpers Macho-Macho
 
 # Montagem do Circuito
-![Imagem do Circuito](aula_01.png)
+![Imagem do Circuito](Aula_01.png)
 
 # Explicação do Código
 
