@@ -37,7 +37,7 @@ liberados para o tráfego.
 
 # Montagem do Circuito
 
-![Imagem do Circuito](semafaro1.png)
+![Imagem do Circuito](Semafaro1.png)
 
 # Explicação do Código
 
