@@ -18,7 +18,7 @@ controle básico de movimento.
 Jumpers Macho-Macho
 
 # Montagem do Circuito
-
+![Imagem do Circuito](Posteinteligente.png)
 
 # Explicação do Código
 
