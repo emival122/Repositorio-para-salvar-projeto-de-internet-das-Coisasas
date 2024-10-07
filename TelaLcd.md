@@ -16,7 +16,7 @@ toda vez que alguém se aproximar a menos de 1 metro do sensor.
 - 1 Resitor de 1 K0hms
 
 ## Montagem do Circuito
-![Imagem do Circuito](telalcd.png)
+![Imagem do Circuito](Telalcd.png)
 
 ## Explicação do Código
 importando a biblioteca do LCD
