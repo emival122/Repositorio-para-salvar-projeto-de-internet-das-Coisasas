@@ -1,6 +1,6 @@
 # Internet das Coisas (IoT)
 
-Repositório com projetos básicos de Internet das Coisas usando Arduino.
+Repositório com projetos de Internet das Coisas usando Arduino.
 
 ## 📁 Estrutura do Repositório
 - **src** → códigos `.ino`
