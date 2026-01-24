@@ -19,7 +19,8 @@ Resistores (10kΩ): Para evitar leituras flutuantes nos botões.
 Fios de Conexão: Fios jumpers para realizar as ligações entre os componentes e a placa Arduino.
 
 # Montagem do Circuito
-![Imagem do Circuito](Projetoservo_motor.png)
+![Imagem do Circuito](../imagens/Servo_motor.png)
+
 
 # Explicação do Código
 
