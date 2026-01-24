@@ -24,6 +24,7 @@ Jumpers Macho-Macho
 
 ![Imagem do Circuito](../imagens/semáfaro.png)
 
+
 # Explicação do Código
 
  Variáveis dos LEDs
