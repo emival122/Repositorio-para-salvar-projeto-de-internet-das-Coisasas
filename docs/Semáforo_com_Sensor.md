@@ -37,7 +37,7 @@ liberados para o tráfego.
 
 # Montagem do Circuito
 
-![Imagem do Circuito](Semafaro1.png)
+![Imagem do Circuito](../Semafaro_com_Sensor.png)
 
 # Explicação do Código
 
