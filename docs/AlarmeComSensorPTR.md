@@ -21,7 +21,7 @@ Jumpers Macho-Macho
 
 # Montagem do Circuito
 
-![Imagem do Circuito](imagens/AlarmeComSensorPTR.png)
+![Imagem do Circuito](../imagens/AlarmeComSensorPTR.png)
 
 # Explicação do Código
 cpp
