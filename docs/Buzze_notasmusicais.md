@@ -16,7 +16,8 @@ Jumpers Macho-Macho
 
 # Montagem do Circuito
 
-![Imagem do Circuito](Buzze_notasmusicais.png)
+![Imagem do Circuito](../imagens/Buzze_notasmusicais.png)
+
 
 # Explicação do Código
 
