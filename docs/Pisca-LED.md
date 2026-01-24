@@ -1,5 +1,5 @@
 
-# Aula_01 Pisca-LED Simples
+# Pisca-LED Simples
 # Introdução
 Este projeto utiliza um LED conectado ao Arduino para criar um efeito de piscar.
 O LED será acionado e desligado em intervalos de 2 segundos, criando um sinal
