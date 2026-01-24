@@ -16,7 +16,8 @@ Arduino e pode ser utilizado como base para projetos mais complexos.
 Jumpers Macho-Macho
 
 # Montagem do Circuito
-![Imagem do Circuito](docs/Pisca-LED.png)
+![Imagem do Circuito](Pisca-LED.png)
+
 
 # Explicação do Código
 
