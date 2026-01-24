@@ -2,7 +2,7 @@
 
 Repositório com projetos de Internet das Coisas usando Arduino.
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 - **src** → códigos `.ino`
 - **docs** → explicação dos projetos
 - **imagens** → imagens dos circuitos
@@ -11,5 +11,5 @@ Repositório com projetos de Internet das Coisas usando Arduino.
 - Arduino
 - C/C++
 
-## 📌 Objetivo
+## Objetivo
 Aprender e praticar conceitos básicos de IoT e eletrônica.
