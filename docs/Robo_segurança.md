@@ -28,7 +28,7 @@ Jumpers Macho-Macho e Macho-Fêmea
 
 # Montagem do Circuito
 
-![Imagem do Circuito](../imagens/semaforo.png)
+![Imagem do Circuito](../imagens/Robo_segurança.png)
 
 
 # Explicação do Código
