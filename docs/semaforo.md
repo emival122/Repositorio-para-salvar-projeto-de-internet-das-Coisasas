@@ -22,7 +22,7 @@ Jumpers Macho-Macho
 
 # Montagem do Circuito
 
-![Imagem do Circuito](../imagens/semáfaro.png)
+![Imagem do Circuito](../imagens/semafaro.png)
 
 
 # Explicação do Código
