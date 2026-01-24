@@ -7,7 +7,7 @@ Repositório com projetos de Internet das Coisas usando Arduino.
 - **docs** → explicação dos projetos
 - **imagens** → imagens dos circuitos
 
-## 🛠 Tecnologias
+## Tecnologias
 - Arduino
 - C/C++
 
